@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Server - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\jona\LOCALS~1\Temp\RSP1113.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Server.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\毕设、\0601-1\Server\ServerDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\jona\LOCALS~1\Temp\RSP1113.tmp" 
+<h3>Output Window</h3>
+Compiling...
+ServerDlg.cpp
+d:\毕设、\0601-1\server\serverdlg.h(33) : warning C4200: nonstandard extension used : zero-sized array in struct/union
+D:\毕设、\0601-1\Server\ServerDlg.cpp(485) : error C2065: 'waveform' : undeclared identifier
+D:\毕设、\0601-1\Server\ServerDlg.cpp(485) : error C2228: left of '.wFormatTag' must have class/struct/union type
+D:\毕设、\0601-1\Server\ServerDlg.cpp(486) : error C2228: left of '.nChannels' must have class/struct/union type
+D:\毕设、\0601-1\Server\ServerDlg.cpp(487) : error C2228: left of '.nSamplesPerSec' must have class/struct/union type
+D:\毕设、\0601-1\Server\ServerDlg.cpp(488) : error C2228: left of '.nAvgBytesPerSec' must have class/struct/union type
+D:\毕设、\0601-1\Server\ServerDlg.cpp(489) : error C2228: left of '.nBlockAlign' must have class/struct/union type
+D:\毕设、\0601-1\Server\ServerDlg.cpp(490) : error C2228: left of '.wBitsPerSample' must have class/struct/union type
+D:\毕设、\0601-1\Server\ServerDlg.cpp(491) : error C2228: left of '.cbSize' must have class/struct/union type
+D:\毕设、\0601-1\Server\ServerDlg.cpp(494) : error C2065: 'buffer' : undeclared identifier
+D:\毕设、\0601-1\Server\ServerDlg.cpp(495) : error C2065: 'BUFFER_SIZE' : undeclared identifier
+D:\毕设、\0601-1\Server\ServerDlg.cpp(504) : error C2065: 'hWaveIn' : undeclared identifier
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+ServerDlg.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
